@@ -4,20 +4,20 @@
     v-bind:title="brandName"
     v-bind:menuitems="menus"
     />
-    <exchange-hero />
+    <!-- <exchange-hero /> -->
     <router-view />
   </div>
 </template>
 
 <script>
-import ExchangeHero from './components/ExchangeHero.vue'
+// import ExchangeHero from './components/ExchangeHero.vue'
 import ExchangeNavbar from './components/ExchangeNavbar.vue'
 
 export default {
   name: 'APP',
   components: {
     ExchangeNavbar,
-    ExchangeHero
+    // ExchangeHero
   },
   data(){
     return{
